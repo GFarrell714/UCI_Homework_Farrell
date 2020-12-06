@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mission to Mars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        h1 {
+            color:   #002a57;
+            font-size: 45px;
+            font-weight: bold;
+            /* font-style: italic; */
+            /* text-align:center; */
+        }
+        
+
+        h2 {
+            /* color:lightcyan; */
+            color: grey-dark;
+            font-size: 24px;
+            text-align: left;
+        }
+
+        h3 {
+            color: black;
+            font-size: 18px;
+            /* text-decoration: underline; */
+            /* font-style: italic; */
+            text-align: left;
+        }
+
+        h4 {
+            color: #002a57;
+            font-size: 22px;
+            font-weight: bold;
+            /* text-decoration: underline; */
+            /* font-style: italic; */
+            text-align: center;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100%;
+            background-color: white;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #002a57;
+            border-color: #002a57;
+            }
+        .jumbotron {
+            padding: 3rem 2rem;
+            margin-bottom: 4rem;
+            background-image: image-set('1500x500.jpeg');
+            background-color: #d79635;
+            border-radius: .5rem;
+            }
+
+
+        img {
+            width: 90%;
+            height: 85%
+        }
+
+        .boxborder {
+            /* background: lightgray; */
+            padding: 10px;
+            border: rgb(0, 0, 0) 2px solid;
+        }
+
+        .boxmargin {
+            /* background: lightgray; */
+            padding: 2px;
+            border: rgb(0, 0, 0) 2px solid;
+            margin: 10px 0px 10px 0px;
+        }
+
+        #vpadding {
+            padding: 25% 0;
+            }
+        #scale_id {
+            width: 500px;
+            height: 500px;
+            object-fit: fill;
+}</style>
+</head>
+
+
+<body >
+    
+    <div  class="container">
+        <div class="jumbotron text-center">
+            <h1>Mission to Mars</h1>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <h2>Latest Mars News</h2>
+                <h3>NASA to Broadcast Mars 2020 Perseverance Launch, Prelaunch Activities</h3>
+                
+                <p><strong>Starting July 27, news activities will cover everything from mission engineering and science to returning samples from Mars to, of course, the launch itself.</strong>
+
+</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-8">
+                <h2>Featured Mars Image</h2>
+                <img src="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA24172_hires.jpg">
+            </div>
+            <
+                <br>
+            <div>
+                <h3><strong>Mars Facts</strong></h3>
+                <table border="1" class="dataframe">  
+    <thead>    <tr style="text-align: right;">      <th></th>      <th>Paraneter</th>      <th>Measurement</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>Equatorial Diameter:</td>      <td>6,792 km</td>    </tr>    <tr>      <th>1</th>      <td>Polar Diameter:</td>      <td>6,752 km</td>    </tr>    <tr>      <th>2</th>      <td>Mass:</td>      <td>6.39 × 10^23 kg (0.11 Earths)</td>    </tr>    <tr>      <th>3</th>      <td>Moons:</td>      <td>2 (Phobos &amp; Deimos)</td>    </tr>    <tr>      <th>4</th>      <td>Orbit Distance:</td>      <td>227,943,824 km (1.38 AU)</td>    </tr>    <tr>      <th>5</th>      <td>Orbit Period:</td>      <td>687 days (1.9 years)</td>    </tr>    <tr>      <th>6</th>      <td>Surface Temperature:</td>      <td>-87 to -5 °C</td>    </tr>    <tr>      <th>7</th>      <td>First Record:</td>      <td>2nd millennium BC</td>    </tr>    <tr>      <th>8</th>      <td>Recorded By:</td>      <td>Egyptian astronomers</td>    </tr>  </tbody></table> </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col col-12">
+                <h4>Mars Hemisphere</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+          
+            <div class="col col-6">
+                <div class="boxmargin">
+                    
+                    <img src="https://uci.bootcampcontent.com/UCI-Coding-Bootcamp/uci-irv-data-pt-08-2020-u-c/raw/master/02-Homework/12-Web-Scraping-and-Document-Databases/Instructions/Images/Mars_Hemisphere.png">
+                </div>
+            </div>
+            
+        </div>
+    </div> <!-- End of container -->
+</body>
+
+</html>
