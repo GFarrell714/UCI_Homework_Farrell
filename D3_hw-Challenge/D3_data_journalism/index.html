@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+  <!--line below is to prevent favicon.ico error-->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1> <u> D3Times</u> </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2> <u>U.S. Data Illustrates the Health Hazards Associated with Living in Poverty </u> </h2>
+          
+          <p>To utilize the different data views, simply click on the various metrics provided along both the x and y axis, such as 'Poverty', 'Age', 'Household Income', 'Obesity', 'Smokers', and 'Without Healthcare'. By choosing varioius combinations of the provided metrics you can shift the State data represented in circles on the graph. To view the specific values for each state, simply hover your cursor over the chosen state (states name have been abbreviated for a better image). </p>
+
+          <p>This data demomstrsates the unique and fascinating relationships that exist between to the metrics being measured. You can 
+            see that when selecting poverty and absence of healthcare you find two extremes.  Texas, at the top of the graph, 
+            having a poverty rate of 17.2 % with 24.9 % without healthcare and Massechusetts having a poverty rate of 11.6 % 
+            but 4% rate without healthcare.</p>
+
+          <p>If you shift the view again, choosing age instead of poverty, the graph illustrates that the majority of those without 
+            healthcare are in the 35 - 45 age range. You will also find, when cxomparing obesity and smokers, that the average age range does change by much at all. The average age of all this data from 2014 seems to fall within that range.</p>
+
+          <p> I encourage you to choose different combinatios of the given metrics and and see if you notice any relationships that warrant further investigstion.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+  
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
