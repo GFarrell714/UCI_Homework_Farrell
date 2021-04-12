@@ -1,4 +1,4 @@
-Excel Homework: Kickstart My Chart
+Kickstart My Chart
 
 Background
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
@@ -14,11 +14,4 @@ Create a stacked column pivot chart that can be filtered by country based on the
 Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
-Create a new column named Date Created Conversion that will use this formula to convert the data contained within launched_at into Excel's date format.
-Create a new column named Date Ended Conversion that will use this formula to convert the data contained within deadline into Excel's date format.
-Create a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years.
-Now create a pivot chart line graph that visualizes this new table.
-Create a report in Microsoft Word and answer the following questions.
-Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-What are some limitations of this dataset?
-What are some other possible tables and/or graphs that we could create?
+
